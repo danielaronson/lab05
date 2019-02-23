@@ -14,17 +14,17 @@ The Domain in this website are three different students
 
 ## Ontology
 
--Each Student has a background story
--Each Student has a hobby
--Each Student has a job
--Each Student has a major
--Each Student has a graduation year
--Each student has a favorite class
--Each student has a favorite stroke
--Each student grew up in a location
--Each student lived in a dorm
--Each student has a favorite restaurant
--Each student has a hair color
+- Each Student has a background story
+- Each Student has a hobby
+- Each Student has a job
+- Each Student has a major
+- Each Student has a graduation year
+- Each student has a favorite class
+- Each student has a favorite stroke
+- Each student grew up in a location
+- Each student lived in a dorm
+- Each student has a favorite restaurant
+- Each student has a hair color
 
 
 ## Taxonomy
