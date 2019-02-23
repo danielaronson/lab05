@@ -5,7 +5,7 @@
 #Members
 - Daniel Aronson: Coder
 - Josh Dennis: Visual Designer
--Eric Feirouz: IA
+- Eric Feirouz: IA
 
 ## Domain
 
