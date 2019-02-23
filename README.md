@@ -30,4 +30,4 @@ Each student has a hair color
 
 ## Choreography
 
-In order for this information to be presented in an effective way, splitting the webpage into two sides would be useful. On the right side of the page, include the 2 pictures, along with the list, that summarize why Josh is the odd student out. On the left side of the page, place each section side by side so users can compare side by side what is different about josh.
+In order for this information to be presented in an effective way, splitting the webpage into two sides would be useful. On the right side of the page, include the 2 pictures, along with the list, that summarize why Josh is the odd student out. On the left side of the page, place each section side by side so users can compare side by side what is different about josh. A F pattern with the images and the paragraphs would be a good way to present this information
