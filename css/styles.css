@@ -18,7 +18,7 @@
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 .nav-bar { 
 	grid-area: nav-bar; 
@@ -31,7 +31,7 @@
 .hero-img { 
 	grid-area: hero-img; 
 	border-bottom: 5px #092834 solid;
-	border-top: 5px #092834 solid
+	border-top: 5px #092834 solid;
 }
 .columns { 
 	grid-area: lead-in; 
