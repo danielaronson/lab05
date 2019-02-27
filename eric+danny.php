@@ -9,18 +9,13 @@
 <body class="grid-container">
 	<div class="head">
 		<header>
-			<a href="index.html">
+			<a href="index.php">
 				<h1>Team Seoul-Odd Student Out</h1>
 			</a>
 		</header>
 	</div>
 
-	<nav class="menu nav-bar">
-		<ul>
-			<li><a href="index.php">Home Page</a></li>
-			<li><a href="eric+danny.html"> Find Out More</a></li>
-		</ul>
-	</nav>
+	<?php include "inc/nav.inc"; ?>
 
 	<aside class="info-one">
 		<h2>Eric Feirouz and Danny Aronson</h2>
