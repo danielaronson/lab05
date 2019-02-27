@@ -25,9 +25,9 @@
 
 	<div class="hero-img">
 		<div class = "slider">
-		<img src="images/aronsonswim.jpg" />
-		<img src="images/feirouzswim.jpg" />
-		<img src="images/dennisswim.jpg" />
+		<img src="images/aronsonswim.jpg" alt="Aronson Swimming">
+		<img src="images/feirouzswim.jpg" alt="Feirouz Swimming">
+		<img src="images/dennisswim.jpg" alt="Dennis Swimming">
 	</div>
 	</div>
 	<div class="columns">
