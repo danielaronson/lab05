@@ -83,7 +83,11 @@ aside h2 {
 	margin-left: 40px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
-.info-two img { float: right; }
+aside { font-family: 'Roboto', sans-serif; }
+.info-two img { 
+	float: right; 
+
+}
 .info-two h2 { 
 	text-align: right;
 	margin-right: 40px;
@@ -94,6 +98,7 @@ aside h2 {
 	position: absolute;
 	z-index: 100;
 	left: 32%;
+	list-style-type: square;
 	clear: left;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: #F0F7D4;
