@@ -1,3 +1,23 @@
+/*	*********************************************
+	This is the CSS file for the main (index) page. 
+	The idea for this page was to have a general Z-pattern formed by the 
+		top left "logo", the navigation element, the slideshow in the middle, the
+		two short columns of information, and the main "button" to direct the viewer
+		to the second page where the information is held.
+	I accomplished this using a grid layout and a specific color palette (which is used
+		consistently throughout the website in order to create a coherent experience 
+		and demonstrate the "repetition" aspect of the CRAP principles).
+	The whole "odd student out" idea is represented on the home page by the choice
+		of images for the slide show, as I am shown swimming while Danny and Eric
+		are diving into the pool, which is a subtle contrast.
+	Additionally, I chose to use red, the brightest color, around elements that should 
+		draw the user's attention, the current page highlighter and the "read more" 
+		button. This button is incredibly important to draw attention to/differentiate 
+		because the whole page layout is intended to direct the user to this very 
+		aspect.
+	Note: I would have preferred to make the slide show small enough so there is no 
+		scrolling required on most screens, but I was unable to figure it out in time.
+    ********************************************* */
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -1,3 +1,24 @@
+/*	***********************************************
+	This is the CSS file for the second page (find out who the odd student out is).
+	The intent of this page was to have a F-Pattern bounded by the "logo" and the 
+		navigation element at the top, then with all of the relative information
+		below. 
+	By having the two bulleted lists of differences, the goal was to showcase that
+		the two groups of students are different for a plethora of reasons. 
+		Additionally, by lining each reason up with the other (i.e. hair color directly
+		across from hair color, etc.), the user is (hopefully) convinced to read through
+		the reasons individually then read directly across and compare the two lists.
+		I thought the line dividing the two would help encourage this behavior (reading
+		the full lists first, then comparing across) and also provide some visual 
+		pleasure.
+	The rest of the F-Pattern is a relatively standard "chunk" of content and is 
+		broken up by switches in text alignment and images. A section of side-by-side
+		columns is also included to further "break" the content and (hopefully)
+		contribute to a strong F-Pattern.
+	In order to reinforce the idea that I am the "odd student out", I consistently 
+		applied a few styles whenever the topic switched me. This included changes in
+		text alignment, typeface, and bullet type.
+	*********************************************** */
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -8,9 +29,13 @@
 	"foot foot foot foot";
 	margin: 0 auto;
 }
-.container {
+.large-container {
 	width: 90%;
 	margin-left: 3%;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
 }
 .head { 
 	grid-area: head; 
@@ -23,20 +48,23 @@
 .info-one { 
 	grid-area: info-one; 
 	border-top: 5px #092834 solid;
-	background-image: linear-gradient(#347B98, #B2D732);
+	background-color: #347B98;
+	border-right: 2.5px #092834 solid;
 }
 .info-two { 
 	grid-area: info-two; 
 	border-top: 5px #092834 solid;
 	clear: both;	
-	background-image: linear-gradient(#347B98, #B2D732);
+	background-color: #347B98;
+	border-left: 2.5px #092834 solid;
 }
 .more-info { 
 	grid-column: 1 / 5;
-	background-image: linear-gradient(#B2D732, #F0F7D4);
+	background-color: #F0F7D4;
 	line-height: 27px;
 	font-family: 'Roboto', sans-serif;
 	clear: left;
+	border-top: 5px #092834 solid;
 }
 .foot { 
 	grid-column: 1 / 5;
@@ -131,4 +159,9 @@ aside { font-family: 'Roboto', sans-serif; }
 	text-align: right;
 	clear: right;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-top: 20px;
 }
+.special { float: left; }
+.flex-container div p { text-align: left; }
+.first { margin-right: 20px; }
+.second { margin-left: 20px; }

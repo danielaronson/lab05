@@ -1,3 +1,8 @@
+/*	**************************************
+	This is the CSS file for navigation.
+	This file just removes styling of the nav unordered list elements and formats how 
+		the nav "buttons" will look on the website.
+	************************************** */
 .menu ul {
 	margin: 0;
 	padding-left: 0;
