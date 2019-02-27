@@ -1,7 +1,7 @@
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 75px 1fr 1fr 1fr 56px;
+	grid-template-rows: 75px 1fr 1fr 1fr 1fr;
 	grid-template-areas: "head head nav-bar nav-bar" "hero-img hero-img hero-img hero-img" "hero-img hero-img hero-img hero-img" "lead-in lead-in lead-in big-idea" "empty empty empty empty";
 	margin: 0 auto;
 }
