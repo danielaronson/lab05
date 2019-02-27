@@ -63,8 +63,8 @@
 		</ul>
 	</aside>
 	
-		<main class="container">
-			<div class="more-info">
+	<main class="container">
+		<div class="more-info">
 			<h3> Background</h3>
 			<h4> Eric and Danny </h4>
 			<p>Eric and Danny are currently seniors at the University of Rochester. Before college, Eric and Danny both grew up outside of New York State. They both grew up playing baseball and swimming in highschool. Eric and Danny have both been competitive swimmers since they were 8 years old. During the off-season they both like to golf and eat at Dinosaur Barbeque, our favorite restaurant. We have been Mechanical Engineering Majors since our Freshman Year, despite disliking mathematics. We are currently taking a robotics class together. Eric and Danny both lived in Susan B Anthony their Freshman year.</p> 
@@ -82,13 +82,13 @@
 			<p>Eric and Danny both work as tutors on Campus. Eric and Danny like to tutor is subjects such as Thermodynamics, Statics, Physics, Java and Economics. Eric and Danny were unable to get jobs as lifeguards because they were not lifeguard certified. They were not excited by the idea of lifeguarding as it sounded boring to them. After this year, Danny and Eric will be beginning their full time jobs.</p>
 			<h4> Josh </h4>
 			<p>Josh works as a lifeguard on campus. Josh began lifeguarding as a senior in highschool and has been certified every since. Josh loves his job as a lifeguard because he knows the importance of having a professional keeping a pool area safe. Josh loves his job and takes it very seriously. After this year, Josh will be beginning an internship.</p>
-			</div>
-		</main>
+		</div>
+	</main>
 	
 
 	<footer class="foot">CSC 174: Advanced Front-end Web Design and Development</footer>
 
-		<script src="//code.jquery.com/jquery.js"></script>
-		<script src="js/menu-highlighter.js"></script>
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="js/menu-highlighter.js"></script>
 </body>
 </html>
