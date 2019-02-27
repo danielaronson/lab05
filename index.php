@@ -17,9 +17,7 @@
 		</header>
 	</div>
 	<div class="nav-bar">
-
-	<?php include "inc/nav.inc"; ?>
-
+		<?php include "inc/nav.inc"; ?>
 	</div>
 	<!-- This will be our JS slide show, we need to choose appropriately sized images -->
 	<div class="hero-img">

@@ -1,13 +1,36 @@
-* { border: 1px solid red; }
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 75px 1fr 1fr 1fr;
-	grid-template-areas: "head head nav-bar nav-bar";
+	grid-template-rows: 75px 1fr 1fr 1fr 1fr;
+	grid-template-areas: "head head nav-bar nav-bar" 
+	"info-one info-one info-two info-two" 
+	"more-info more-info more-info more-info"
+	"foot foot foot foot";
 	margin: 0 auto;
 }
-.head { grid-area: head; }
-.nav-bar { grid-area: nav-bar; }
-.info-one { grid-area: info-one; }
-.info-two { grid-area: info-two; }
-.more-info { grid-area; more-info }
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+.head { 
+	grid-area: head; 
+	background-color: #B2D732;
+}
+.nav-bar { 
+	grid-area: nav-bar;
+	background-color: #B2D732;
+	border: 1px red solid;
+}
+.info-one { 
+	grid-area: info-one; 
+	text-align: center;
+}
+.info-two { 
+	grid-area: info-two; 
+	text-align: center;
+}
+.more-info { 
+	grid-area; more-info;
+	border: 1px red solid;
+}
+.foot { grid-area: foot; }
