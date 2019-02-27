@@ -11,18 +11,15 @@
 <body class="grid-container">
 	<div class="head">
 		<header>
-			<a href="index.html">
+			<a href="index.php">
 				<h1>Team Seoul - Odd Student Out</h1>
 			</a>
 		</header>
 	</div>
 	<div class="nav-bar">
-		<nav class="menu">
-			<ul>
-				<li><a href="index.html">Home Page</a></li>
-				<li><a href="eric+danny.html"> Find Out More</a></li>
-			</ul>
-		</nav>
+
+	<?php include "inc/nav.inc"; ?>
+
 	</div>
 	<!-- This will be our JS slide show, we need to choose appropriately sized images -->
 	<div class="hero-img">
@@ -44,7 +41,7 @@
 	</div>
 	<div class="big-idea">
 		<ol class="boxes">
-			<li><a href="eric+danny.html">Click Here to Find Out Who the Odd Student Out Is!</a></li>
+			<li><a href="eric+danny.php">Click Here to Find Out Who the Odd Student Out Is!</a></li>
 		</ol>
 	</div>
 	<div class="empty">CSC 174 - Spring 2019</div>
