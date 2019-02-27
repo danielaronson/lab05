@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/navigation.css">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya|Roboto|Roboto+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="sss/sss.css">
+
 </head>
 
 <body class="grid-container">
@@ -20,10 +22,13 @@
 		<?php include "inc/nav.inc"; ?>
 	</div>
 	<!-- This will be our JS slide show, we need to choose appropriately sized images -->
+
 	<div class="hero-img">
-		<figure>
-				<img src="images/seoul.jpg" alt="Team Seoul" class="center">
-		</figure>
+		<div class = "slider">
+		<img src="images/aronsonswim.jpg" />
+		<img src="images/feirouzswim.jpg" />
+		<img src="images/dennisswim.jpg" />
+	</div>
 	</div>
 	<div class="columns">
 		<main class="flex-container">
@@ -45,5 +50,8 @@
 	<div class="empty">CSC 174 - Spring 2019</div>
 	<script src="//code.jquery.com/jquery.js"></script>
 	<script src="js/menu-highlighter.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="sss/sss.js"></script>
+	<script>$('.slider').sss();</script>
 </body>
 </html>
