@@ -5,12 +5,13 @@
 	<title>Eric, Danny and Josh | Odd Student Out | Assignment 5</title>
 	<link rel="stylesheet" href="css/styles-two.css">
 	<link rel="stylesheet" href="css/navigation.css">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya|Roboto|Roboto+Condensed" rel="stylesheet">
 </head>
 <body class="grid-container">
 	<div class="head">
 		<header>
 			<a href="index.php">
-				<h1>Team Seoul-Odd Student Out</h1>
+				<h1>Team Seoul - Odd Student Out</h1>
 			</a>
 		</header>
 	</div>
@@ -20,7 +21,7 @@
 
 	<aside class="info-one">
 		<h2>Eric Feirouz and Danny Aronson</h2>
-		<figure>
+		<figure class="pic-one">
 			<img src="images/eric+danny.jpeg" alt="Eric and Danny">
 		</figure>
 		<ul>
@@ -29,7 +30,7 @@
 			<li> Class of 2019 </li>
 			<li> Mechanical Engineering Majors</li>
 			<li> Did Not Grow Up In New York</li>
-			<li> Played Baseball and Swam in Highschool </li>
+			<li> Played Baseball and Swam in High School </li>
 			<li> Lived in Susan B Anthony </li>
 			<li> Loves Dinosaur Barbeque</li>
 			<li> Breaststrokers and Butterflyers</li>
@@ -51,7 +52,7 @@
 			<li> Class of 2020 </li>
 			<li> Mathematics Major </li>
 			<li> Grew Up in New York</li>
-			<li> Played Tennis and Swam in Highschool </li>
+			<li> Played Tennis and Swam in High School </li>
 			<li> Lived in the Quad </li>
 			<li> Loves Moes Southwest Grille</li>
 			<li> Sprint Freestyler</li>

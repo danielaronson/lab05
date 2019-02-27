@@ -1,7 +1,7 @@
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 75px 1fr 1fr 1fr 1fr;
+	grid-template-rows: 75px 0.23fr 1fr 1fr 1fr;
 	grid-template-areas: "head head nav-bar nav-bar" 
 	"info-one info-one info-two info-two" 
 	"more-info more-info more-info more-info"
@@ -9,8 +9,7 @@
 	margin: 0 auto;
 }
 .container {
-	width: 90%;
-	margin: 0 auto;
+	
 }
 .head { 
 	grid-area: head; 
@@ -19,18 +18,83 @@
 .nav-bar { 
 	grid-area: nav-bar;
 	background-color: #B2D732;
-	border: 1px red solid;
 }
 .info-one { 
 	grid-area: info-one; 
-	text-align: center;
+	border-top: 5px #092834 solid;
+	background-color: #347B98;
 }
 .info-two { 
 	grid-area: info-two; 
-	text-align: center;
+	border-top: 5px #092834 solid;
+	clear: both;	
+	background-color: #347B98;
 }
 .more-info { 
 	grid-area; more-info;
 	border: 1px red solid;
 }
 .foot { grid-area: foot; }
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+nav li { 
+	margin: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+}
+a { 
+	text-decoration: none; 
+	color: #092834;
+	font-family: 'Roboto', sans-serif;
+}
+header a {
+	display: block;
+	position: absolute;
+	text-decoration: none;
+	color: black;
+	text-align: start;
+	margin-left: 15px;
+	color: #092834;
+	font-family: 'Alegreya', serif;
+	font-size: 24px;
+	z-index: 100;
+	top: -22px;
+}
+.is-current {
+	border-bottom: 2px solid #FE2712;
+}
+aside ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: circle;
+	clear: right;
+}
+aside img {
+	float: left;
+}
+aside li {
+	margin-left: 300px;
+	line-height: 22px;
+}
+aside h2 {
+	margin-left: 40px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.info-two img { float: right; }
+.info-two h2 { 
+	text-align: right;
+	margin-right: 40px;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #F0F7D4;
+}
+.info-two ul {
+	position: absolute;
+	z-index: 100;
+	left: 430px;
+	clear: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #F0F7D4;
+}
