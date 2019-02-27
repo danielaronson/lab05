@@ -63,13 +63,13 @@
 		</ul>
 	</aside>
 	
-	<main class="container">
-		<div class="more-info">
+	<main class="more-info">
+		<div class="container">
 			<h3> Background</h3>
 			<h4> Eric and Danny </h4>
-			<p>Eric and Danny are currently seniors at the University of Rochester. Before college, Eric and Danny both grew up outside of New York State. They both grew up playing baseball and swimming in highschool. Eric and Danny have both been competitive swimmers since they were 8 years old. During the off-season they both like to golf and eat at Dinosaur Barbeque, our favorite restaurant. We have been Mechanical Engineering Majors since our Freshman Year, despite disliking mathematics. We are currently taking a robotics class together. Eric and Danny both lived in Susan B Anthony their Freshman year.</p> 
+			<p>Eric and Danny are currently seniors at the University of Rochester. Before college, Eric and Danny both grew up outside of New York State. They both grew up playing baseball and swimming in high school. Eric and Danny have both been competitive swimmers since they were 8 years old. During the off-season they both like to golf and eat at Dinosaur Barbeque, our favorite restaurant. We have been Mechanical Engineering Majors since our Freshman Year, despite disliking mathematics. We are currently taking a robotics class together. Eric and Danny both lived in Susan B Anthony their Freshman year.</p> 
 			<h4> Josh </h4>
-			<p>Josh is a junior at the University of Rochester. Before College, Josh grew up in New York State. Josh grew up playing tennis and swimming in highschool. Josh has been a competitve swimmers since he was 11 years old. During the off-season Josh likes to play video games and eat at Moe's Southwest Grille, his favorite restaurant. Josh decided upon his mathematics major after his Freshman Year. He loves math and hope to continue to build on the current coursework he has taken. He is currently taking a class that involves heavy applications of linear algebra. Josh lived in the quad his freshman year.</p>
+			<p>Josh is a junior at the University of Rochester. Before College, Josh grew up in New York State. Josh grew up playing tennis and swimming in high school. Josh has been a competitve swimmers since he was 11 years old. During the off-season Josh likes to play video games and eat at Moe's Southwest Grille, his favorite restaurant. Josh decided upon his mathematics major after his Freshman Year. He loves math and hope to continue to build on the current coursework he has taken. He is currently taking a class that involves heavy applications of linear algebra. Josh lived in the quad his freshman year.</p>
 
 			<h3> In the Pool </h3>
 			<h4> Eric and Danny </h4>

@@ -1,7 +1,7 @@
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 75px 1.5fr 1fr 2fr 56px;
+	grid-template-rows: 75px 1.5fr 1fr 0.0001fr 56px;
 	grid-template-areas: "head head nav-bar nav-bar" "hero-img hero-img hero-img hero-img" "hero-img hero-img hero-img hero-img" "lead-in lead-in lead-in big-idea" "empty empty empty empty";
 	margin: 0 auto;
 }
@@ -30,7 +30,7 @@
 }
 .hero-img { 
 	grid-area: hero-img; 
-	border-bottom: 5px #092834 solid;
+	border-bottom: 8px #092834 solid;
 	border-top: 5px #092834 solid;
 }
 .columns { 

@@ -1,15 +1,16 @@
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 75px 0.23fr 1fr 1fr 1fr;
+	grid-template-rows: 75px 0.23fr 0.5fr 56px;
 	grid-template-areas: "head head nav-bar nav-bar" 
 	"info-one info-one info-two info-two" 
-	"more-info more-info more-info more-info"
+	
 	"foot foot foot foot";
 	margin: 0 auto;
 }
 .container {
-	
+	width: 90%;
+	margin-left: 5%;
 }
 .head { 
 	grid-area: head; 
@@ -22,19 +23,27 @@
 .info-one { 
 	grid-area: info-one; 
 	border-top: 5px #092834 solid;
-	background-color: #347B98;
+	background-image: linear-gradient(#347B98, #B2D732);
 }
 .info-two { 
 	grid-area: info-two; 
 	border-top: 5px #092834 solid;
 	clear: both;	
-	background-color: #347B98;
+	background-image: linear-gradient(#347B98, #B2D732);
 }
 .more-info { 
-	grid-area; more-info;
-	border: 1px red solid;
+	grid-column: 1 / 5;
+	background-image: linear-gradient(#B2D732, #F0F7D4);
 }
-.foot { grid-area: foot; }
+.foot { 
+	grid-column: 1 / 5;
+	background-color: #092834;
+	color: #B2D732;
+	padding-left: 5px;
+	padding-top: 3px;
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;
+}
 nav ul {
 	display: flex;
 	justify-content: flex-end;
@@ -74,6 +83,7 @@ aside ul {
 }
 aside img {
 	float: left;
+	margin-bottom: 20px;
 }
 aside li {
 	margin-left: 300px;

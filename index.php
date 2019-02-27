@@ -47,7 +47,7 @@
 			<li><a href="eric+danny.php">Click Here to Find Out Who the Odd Student Out Is!</a></li>
 		</ol>
 	</div>
-	<div class="empty">CSC 174 - Spring 2019</div>
+	<div class="empty">CSC 174: Advanced Front-end Web Design and Development</div>
 	<script src="//code.jquery.com/jquery.js"></script>
 	<script src="js/menu-highlighter.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
